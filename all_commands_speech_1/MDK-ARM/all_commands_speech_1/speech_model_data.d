@@ -1,0 +1,19 @@
+all_commands_speech_1/speech_model_data.o: \
+  ..\X-CUBE-AI\App\speech_model_data.c \
+  ..\X-CUBE-AI\App\speech_model_data.h \
+  ..\X-CUBE-AI\App\speech_model_config.h \
+  ..\X-CUBE-AI\App\speech_model_data_params.h \
+  ..\Middlewares\ST\AI\Inc\ai_platform.h \
+  D:\stm\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  D:\stm\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  D:\stm\Keil_v5\ARM\ARMCLANG\Bin\..\include\inttypes.h \
+  D:\stm\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  ..\Middlewares\ST\AI\Inc\ai_platform_interface.h \
+  ..\Middlewares\ST\AI\Inc\ai_platform.h \
+  ..\Middlewares\ST\AI\Inc\datatypes_network.h \
+  ..\Middlewares\ST\AI\Inc\ai_datatypes.h \
+  D:\stm\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  ..\Middlewares\ST\AI\Inc\ai_platform_interface.h \
+  ..\Middlewares\ST\AI\Inc\ai_datatypes_format.h \
+  ..\Middlewares\ST\AI\Inc\ai_datatypes_defines.h \
+  ..\Middlewares\ST\AI\Inc\formats_list.h
