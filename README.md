@@ -9,7 +9,7 @@ Here is my python source code for speech recognition - a neural network model is
 * **Optimize the model on STM32 hardware using the STM-Cube-Ai library**
 
 ## Extraction audio
-I use Google's simple audio suite, you can access it via the following link: /*'http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'*/:
+I use Google's simple audio suite, you can access it via the following link: **'http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'**:
 <p align="center">
   <img src="demo/quickdraw.gif" width=600><br/>
   <i>Camera app demo</i>
