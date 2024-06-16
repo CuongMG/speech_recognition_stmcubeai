@@ -25,13 +25,16 @@ The dataset used for training my model could be found at [Quick Draw dataset] ht
 ## Categories:
 The table below shows 20 categories my model used:
 
-|           |           |           |           |
-|-----------|:-----------:|:-----------:|:-----------:|
-|   apple   |   book    |   bowtie  |   candle  |
-|   cloud   |    cup    |   door    | envelope  |
-|eyeglasses |  guitar   |   hammer  |    hat    |
-| ice cream |   leaf    | scissors  |   star    |
-|  t-shirt  |   pants   | lightning |    tree   |
+|    Aspect                |    Edge Servers                              |      Edge Devices                              |
+|--------------------------|:--------------------------------------------:|:----------------------------------------------:|
+|   Resources              |   High CPU/GPU/TPU, high memory and storage  |   Limited CPU/GPU, low memory and storage      |   
+|   Operating System       |    Full OS(Linux, Windows)                   |   Embedded OS, RTOS, or bare-metal             | 
+|   Deployment Method      |  Containers, microservices                   |  Firmware, direct software deployment          |  
+|   Model Optimization     |   Less constrained, can use larger models    | Highly optimized for size and efficiency       |  
+|   Hardware Acceleration  |   GPUs, TPUs                                 | Specialized low-power accelerators             |  
+|   Management             |   Easier, centralized tools                  | Challenging, may use OTA updates               |  
+|   Connectivity           |   Reliable, high-bandwidth                   | Limited, may rely on intermittent connectivity |  
+|   Use Case Examples      |   Industrial IoT, CDNs, smart cities         | Wearables, smart home, autonomous systems      |  
 
 ## Trained models
 
