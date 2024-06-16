@@ -11,8 +11,8 @@ Here is my python source code for speech recognition - a neural network model is
 ## Extraction audio
 I use Google's simple audio suite, you can access it via the following link: **'http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'**. I use the **MFCC** transform to be able to extract audio features to train the model:
 <p align="center">
-  <img src="demo/quickdraw.gif" width=600><br/>
-  <i>Camera app demo</i>
+  <img src="refer/extraction-mfcc-audio.jpg" width=600><br/>
+  <i>Extraction MFCC</i>
 </p>
 
 ## Drawing app
