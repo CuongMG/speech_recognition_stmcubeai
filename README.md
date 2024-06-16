@@ -1,16 +1,12 @@
 <p align="center">
- <h1 align="center">QuickDraw</h1>
+ <h1 align="center">Speech recognition on STM32 by using STMCube-Ai</h1>
 </p>
-
-[![GitHub stars](https://img.shields.io/github/stars/uvipen/QuickDraw)](https://github.com/uvipen/QuickDraw/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/uvipen/QuickDraw?color=orange)](https://github.com/uvipen/QuickDraw/network)
-[![GitHub license](https://img.shields.io/github/license/uvipen/QuickDraw)](https://github.com/uvipen/QuickDraw/blob/master/LICENSE)
 
 ## Introduction
 
-Here is my python source code for QuickDraw - an online game developed by google. with my code, you could: 
-* **Run an app which you could draw in front of a camera (If you use laptop, your webcam will be used by default)**
-* **Run an app which you could draw on a canvas**
+Here is my python source code for speech recognition - a neural network model is deployed on STM32. with my code, you could: 
+* **Extract audio features and train the model**
+* **Optimize the model on STM32 hardware using the STM-Cube-Ai library**
 
 ## Camera app
 In order to use this app, you need a pen (or any object) with blue, red or green color. When the pen (object) appears in front of camera, it will be catched and highlighted by an yellow circle. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
