@@ -8,9 +8,8 @@ Here is my python source code for speech recognition - a neural network model is
 * **Extract audio features and train the model**
 * **Optimize the model on STM32 hardware using the STM-Cube-Ai library**
 
-## Camera app
-In order to use this app, you need a pen (or any object) with blue, red or green color. When the pen (object) appears in front of camera, it will be catched and highlighted by an yellow circle. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
-Below is the demo by running the sript **camera_app.py**:
+## Extraction audio
+I use Google's simple audio suite, you can access it via the following link: /*'http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz'*/:
 <p align="center">
   <img src="demo/quickdraw.gif" width=600><br/>
   <i>Camera app demo</i>
