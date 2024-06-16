@@ -15,14 +15,18 @@ I use Google's simple audio suite, you can access it via the following link: **'
   <i>Extraction MFCC</i>
 </p>
 
-## Drawing app
-The script and demo will be released soon
+## Sensor Audio
+I use the max4466 sound sensor to be able to capture sound from the environment, taking 16000 samples every second.
 
-## Dataset
+<p align="center">
+  <img src="refer/max4466-sensor-audio.png" width=600><br/>
+  <i>Extraction MFCC</i>
+</p>
+
+## Comparison between **Edge Servers** and **Edge Devices**
 The dataset used for training my model could be found at [Quick Draw dataset] https://console.cloud.google.com/storage/browser/quickdraw_dataset/sketchrnn. Here I only picked up 20 files for 20 categories
 
-## Categories:
-The table below shows 20 categories my model used:
+## Comparison between **Edge Servers** and **Edge Devices**:
 
 |    Aspect                |    Edge Servers                              |      Edge Devices                              |
 |--------------------------|:--------------------------------------------:|:----------------------------------------------:|
