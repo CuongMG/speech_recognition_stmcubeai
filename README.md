@@ -23,39 +23,3 @@ I use the max4466 sound sensor to be able to capture sound from the environment,
   <i>Extraction MFCC</i>
 </p>
 
-## Comparison between **Edge Servers** and **Edge Devices**
-The dataset used for training my model could be found at [Quick Draw dataset] https://console.cloud.google.com/storage/browser/quickdraw_dataset/sketchrnn. Here I only picked up 20 files for 20 categories
-
-## Comparison between **Edge Servers** and **Edge Devices**:
-
-|    Aspect                |    Edge Servers                              |      Edge Devices                              |
-|--------------------------|:--------------------------------------------:|:----------------------------------------------:|
-|   Resources              |   High CPU/GPU/TPU, high memory and storage  |   Limited CPU/GPU, low memory and storage      |   
-|   Operating System       |    Full OS(Linux, Windows)                   |   Embedded OS, RTOS, or bare-metal             | 
-|   Deployment Method      |  Containers, microservices                   |  Firmware, direct software deployment          |  
-|   Model Optimization     |   Less constrained, can use larger models    | Highly optimized for size and efficiency       |  
-|   Hardware Acceleration  |   GPUs, TPUs                                 | Specialized low-power accelerators             |  
-|   Management             |   Easier, centralized tools                  | Challenging, may use OTA updates               |  
-|   Connectivity           |   Reliable, high-bandwidth                   | Limited, may rely on intermittent connectivity |  
-|   Use Case Examples      |   Industrial IoT, CDNs, smart cities         | Wearables, smart home, autonomous systems      |  
-
-## Trained models
-
-You could find my trained model at **trained_models/whole_model_quickdraw**
-
-## Training
-
-You need to download npz files corresponding to 20 classes my model used and store them in folder **data**. If you want to train your model with different list of categories, you only need to change the constant **CLASSES** at **src/config.py** and download necessary npz files. Then you could simply run **python3 train.py**
-
-## Experiments:
-
-For each class, I take the first 10000 images, and then split them to training and test sets with ratio 8:2. The training/test loss/accuracy curves for the experiment are shown below:
-
-<img src="demo/loss_accuracy_curves.png" width="800"> 
-
-## Requirements
-
-* **python 3.6**
-* **cv2**
-* **pytorch** 
-* **numpy**
